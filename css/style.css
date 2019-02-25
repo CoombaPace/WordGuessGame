@@ -1,0 +1,54 @@
+.lead {
+    font-size: 30px;
+}
+
+body {
+    background-repeat: no-repeat;
+    width: 100%;
+    background-position: center;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 70px
+}
+
+#game-area {
+    height: 580px;
+    margin-top: 30px;
+}
+
+.header {
+    position: relative;
+    width: 100%;
+    min-height: auto;
+    text-align: center;
+    background-position: center;
+}
+
+.masthead {
+    height: 40vh;
+    min-height: 250px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background: black;
+    font-family: "ZCOOL QingKe HuangYou", cursive;
+  }
+
+  .row {
+    font-family: 'Coiny', cursive;
+    font-size: 30px;
+    text-align: center;
+    justify-content: center;
+    font-size: 35px;
+  }
+
+  ul {
+      text-align: center;
+      color:  rgb(79, 175, 23);
+  }
+
+  #answer {
+    color: blueviolet;
+  }
