@@ -29,10 +29,32 @@
               </header>
 <div id="game-area" style="background-image: url('images/hop_lineup.jpg'); color: #666666;">
     <div class="row">
-        <div id="answer">The Word is... <span id="word"></span></div>
+        <!-- <div id="answer">The Word is... <span id="word"></span></div> -->
     </div>
-    
-    <div class="row">
+    <div class="jumbotron">
+      <h1 class="display-3" id="answer">The Word is...  <span id="word"></span></h1>
+      <p class="lead">[ Press any to key to start! ]</p>
+      <hr class="my-2">
+      <ul>
+        <li>
+            <div>Already Guessed: <span id="guessed"></span></div>
+        </li>
+        <li>
+            <div>Guesses Remaining: <span id="maxGuess"></span></div>
+        </li>
+        <li>
+            <div>Wins: <span id="wins"></span></div>
+        </li>
+        <li>
+            <div>Loses: <span id="losses"></span></div>
+        </li>
+    </ul>
+      <!-- <p>More info</p>
+      <p class="lead">
+        <a class="btn btn-primary btn-lg" href="Jumbo action link" role="button">Jumbo action name</a>
+      </p> -->
+    </div>
+    <!-- <div class="row">
         <ul>
             <li>
                 <div>Already Guessed: <span id="guessed"></span></div>
@@ -47,7 +69,7 @@
                 <div>Loses: <span id="losses"></span></div>
             </li>
         </ul>
-    </div>      
+    </div>       -->
 </div>
 </div>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
